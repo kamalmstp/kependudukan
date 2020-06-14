@@ -10,7 +10,7 @@
             <div class="col-md-12">
                 <h2><center><strong><font color="blue">Hai <?php echo $_SESSION['user']['nama_user'];?><i class="fa fa-user"></i></font></strong></center></h2><span></span>
                     <div class="col-xs-12">
-                    <font color="grey"><h4>Selamat datang di Aplikasi Kependudukan Desa Dukuhdalem - Ciawigebang</h4></font>
+                    <font color="grey"><h4>Selamat datang di Aplikasi Kependudukan Desa Puruk Cahu - Murung Raya</h4></font>
                 </div>
                 </div>
                 <!-- /.col-lg-12 -->

@@ -9,7 +9,7 @@
     <meta name="author" content="Kelompok KP 18">
     <link rel="icon" href="../../../favicon.ico">
 
-    <title>Aplikasi Penduduk Desa Dukuhdalem - Ciawigebang</title>
+    <title>Aplikasi Penduduk Desa Puruk Cahu - Murung Raya</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">

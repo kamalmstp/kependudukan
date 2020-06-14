@@ -15,9 +15,9 @@ class PDF extends FPDF
     	// Move to the right
     	// $this->Cell(60);
     	// Title
-        $this->Cell(308,8,'PEMERINTAHAN DESA DUKUHDALEM',0,1,'C');
-        $this->Cell(308,8,'KECMATAN CIAWIGEBANG',0,1,'C');
-    	$this->Cell(308,8,'KABUPATEN KUNIGAN',0,1,'C');
+        $this->Cell(308,8,'PEMERINTAHAN DESA PURUK CAHU',0,1,'C');
+        $this->Cell(308,8,'KECMATAN MURUNG RAYA',0,1,'C');
+    	$this->Cell(308,8,'KABUPATEN MURUNG',0,1,'C');
     	// Line break
     	$this->Ln(5);
 

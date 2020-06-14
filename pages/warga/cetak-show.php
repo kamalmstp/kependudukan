@@ -15,9 +15,9 @@ class PDF extends FPDF
     	// Move to the right
     	// $this->Cell(60);
     	// Title
-        $this->Cell(200,8,'PEMERINTAH KABUPATEN KUNINGAN',0,1,'C');
-        $this->Cell(200,8,'KECAMATAN CIAWIGEBANG',0,1,'C');
-    	$this->Cell(200,8,'DESA DUKUHDALEM',0,1,'C');
+        $this->Cell(200,8,'PEMERINTAH KABUPATEN MURUNG',0,1,'C');
+        $this->Cell(200,8,'KECAMATAN MURUNG RAYA',0,1,'C');
+    	$this->Cell(200,8,'DESA PURUK CAHU',0,1,'C');
     	// Line break
     	$this->Ln(5);
 

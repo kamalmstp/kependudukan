@@ -15,11 +15,11 @@ class PDF extends FPDF
         // Move to the right
         // $this->Cell(60);
         // Title
-        $this->Cell(200,8,'PEMERINTAH KABUPATEN KUNINGAN',0,1,'C');
-        $this->Cell(200,8,'KECAMATAN CIAWIGEBANG',0,1,'C');
-        $this->Cell(200,8,'DESA DUKUHDALEM',0,1,'C');
+        $this->Cell(200,8,'PEMERINTAH KABUPATEN MURUNG',0,1,'C');
+        $this->Cell(200,8,'KECAMATAN MURUNG RAYA',0,1,'C');
+        $this->Cell(200,8,'DESA PURUK CAHU',0,1,'C');
         $this->SetFont('Times','',13);
-        $this->Cell(200,8,'Jl.Desa Dukuh Dalem No.1 Ciawigebang kuningan',0,1,'C');
+        $this->Cell(200,8,'Jl.Desa Puruk Cahu',0,1,'C');
         // Line break
 
         $this->SetFont('Times','BU',12);
@@ -49,10 +49,10 @@ include "data-show.php";
             
 
             $nomor_surat ="01/SKet/I/2018";
-            $provinsi = "Jawa Barat";
-            $kabupaten = "Kunigan";
-            $kecamatan = "Ciawigebang";
-            $desa = "Dukuhdalem";
+            $provinsi = "Kalimantan Tengah";
+            $kabupaten = "Murung";
+            $kecamatan = "Murung Raya";
+            $desa = "Puruk Cahu";
             
             $jabatan="Kepala Desa";
             $nama_pamong="SUEB";

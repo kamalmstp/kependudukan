@@ -18,10 +18,10 @@ $tanggal_lahir_warga = htmlspecialchars($_POST['tanggal_lahir_warga']);
 $jenis_kelamin_warga = htmlspecialchars($_POST['jk']);
 /*
 $alamat_warga = htmlspecialchars($_POST['alamat_warga']);
-$desa_kelurahan_warga = 'Dukuhdalem';
+$desa_kelurahan_warga = 'Puruk Cahu';
 $kecamatan_warga = 'Ciawi Gebang';
 $kabupaten_kota_warga = 'Kuningan';
-$provinsi_warga = 'Jawa Barat';
+$provinsi_warga = 'Kalimantan Tengah';
 $negara_warga = 'Indonesia';
 
 $agama_warga = htmlspecialchars($_POST['agama_warga']);

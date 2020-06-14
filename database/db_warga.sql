@@ -52,10 +52,10 @@ CREATE TABLE `kartu_keluarga` (
 --
 
 INSERT INTO `kartu_keluarga` (`id_keluarga`, `nomor_keluarga`, `id_kepala_keluarga`, `alamat_keluarga`, `dusun_keluarga`, `desa_kelurahan_keluarga`, `kecamatan_keluarga`, `kabupaten_kota_keluarga`, `provinsi_keluarga`, `negara_keluarga`, `rt_keluarga`, `rw_keluarga`, `kode_pos_keluarga`, `id_user`, `created_at`, `updated_at`) VALUES
-(11, '10', 2, 'Kuningan', '', 'kng', 'kng', 'kng', 'jabar', 'Indonesia', '1', '1', '45515', 13, '2016-09-15 12:59:41', '2016-09-15 12:59:41'),
-(20, '13', 9, 'Ciawi', '', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', '01', '01', '4555', 11, '2017-12-17 18:41:23', '2017-12-17 18:41:23'),
-(21, '12', 3, 'Kuningan', '', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', '01', '01', '45515', 11, '2017-12-17 18:40:10', '2017-12-17 18:40:10'),
-(22, '14', 5, 'Kuningan', '', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', '01', '01', '45515', 11, '2017-12-17 13:20:22', '0000-00-00 00:00:00'),
+(11, '10', 2, 'Seberang', '', 'kng', 'kng', 'kng', 'jabar', 'Indonesia', '1', '1', '45515', 13, '2016-09-15 12:59:41', '2016-09-15 12:59:41'),
+(20, '13', 9, 'Ciawi', '', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', '01', '01', '4555', 11, '2017-12-17 18:41:23', '2017-12-17 18:41:23'),
+(21, '12', 3, 'Seberang', '', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', '01', '01', '45515', 11, '2017-12-17 18:40:10', '2017-12-17 18:40:10'),
+(22, '14', 5, 'Seberang', '', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', '01', '01', '45515', 11, '2017-12-17 13:20:22', '0000-00-00 00:00:00'),
 (30, '16', 30, '-', '', '-', '-', '-', '-', '-', '-', '-', '-', 13, '2018-01-03 19:15:18', '0000-00-00 00:00:00'),
 (31, '320809160198004', 34, 'Windujanten', '', '-', '-', '-', '-', '-', '-', '-', '-', 13, '2018-01-17 17:51:56', '0000-00-00 00:00:00'),
 (32, '3208091601700015', 35, 'Cijoho', '', '-', '-', '-', '-', '-', '-', '-', '-', 13, '2018-01-17 17:53:06', '0000-00-00 00:00:00');
@@ -152,14 +152,14 @@ CREATE TABLE `tbl_kelahiran` (
 --
 
 INSERT INTO `tbl_kelahiran` (`id_kelahiran`, `tgl_kelahiran`, `nama_bayi`, `jk`, `berat_bayi`, `panjang_bayi`, `nama_ayah`, `nama_ibu`, `lokasi_lahir`, `tempat_lahir`, `id_keluarga`, `penolong`, `id_warga`, `id_surat`) VALUES
-(2, '2017-12-21 00:00:00', 'Dejan Kecil', 'L', '3', 55, 'Dejan', 'Entah', 'Rumah Bersalin', 'Kuningan', 11, 'Bidan cantik', 10, NULL),
-(3, '2017-12-22 00:00:00', 'Cihiro', 'P', '2,5', 55, 'Dejan', 'Entah', 'Bidan', 'Kuningan', 22, '', NULL, NULL),
+(2, '2017-12-21 00:00:00', 'Dejan Kecil', 'L', '3', 55, 'Dejan', 'Entah', 'Rumah Bersalin', 'Seberang', 11, 'Bidan cantik', 10, NULL),
+(3, '2017-12-22 00:00:00', 'Cihiro', 'P', '2,5', 55, 'Dejan', 'Entah', 'Bidan', 'Seberang', 22, '', NULL, NULL),
 (27, '2018-01-02 00:00:00', 'Yoshino', 'L', '3', 50, 'DD', 'MM', 'Bukan Rumah Bersalin', 'kuningan', 14, 'Entah', 12, 0),
 (28, '2018-01-02 00:00:00', 'Yoshino', 'L', '3', 50, 'DD', 'MM', 'Bukan Rumah Bersalin', 'kuningan', 12, 'Entah', 13, 0),
 (29, '2018-01-02 00:00:00', 'Yoshino yosuke', 'L', '3', 55, 'DD', 'DDD', 'Bukan Rumah Bersalin', 'kuningan', 14, 'Bidan cantik', 14, 0),
 (30, '2018-01-02 00:00:00', 'Yoshino yosuke 2', 'L', '3', 55, 'DD', 'DDD', 'Bukan Rumah Bersalin', 'kuningan', 10, 'Bidan cantik', 15, 0),
 (31, '2018-01-03 00:00:00', 'suryani', 'L', '3', 50, 'dejan', 'entah', 'Rumah Bersalin', 'kuningan', 14, 'Bidan cantik', 16, 0),
-(32, '2018-01-04 00:00:00', 'Yani Suryani', 'L', '4', 55, 'Dejan', 'Duka', 'Rumah Bersalin', 'Kuningan', 10, 'Bidan cantik', 31, 0);
+(32, '2018-01-04 00:00:00', 'Yani Suryani', 'L', '4', 55, 'Dejan', 'Duka', 'Rumah Bersalin', 'Seberang', 10, 'Bidan cantik', 31, 0);
 
 -- --------------------------------------------------------
 
@@ -216,9 +216,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `nama_user`, `username_user`, `password_user`, `keterangan_user`, `status_user`, `desa_kelurahan_user`, `kecamatan_user`, `kabupaten_kota_user`, `provinsi_user`, `negara_user`, `rt_user`, `rw_user`, `created_at`, `updated_at`) VALUES
-(1, 'otakcoding', 'admin', '202cb962ac59075b964b07152d234b70', 'admin di aplikasi pendataan warga', 'Admin', 'kebun jahe', 'binjai', 'medan', 'sumatera utara', 'Indonesia', '001', '002', '2017-10-19 06:31:17', '2017-10-19 06:31:17'),
-(11, 'Kepala Desa', 'Admin', 'e3afed0047b08059d0fada10f400c1e5', '', 'Admin', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', '-', '-', '2019-06-16 14:48:53', '2017-12-15 04:30:43'),
-(13, 'Kasi Pemerintahan', 'kasi_pemerintahan', '17131d43d1c41721e4daf4a9a6c85cda', 'Kasi Pemerintahan', 'Kasi_Pemerintahan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', '', '', '2018-01-02 07:57:52', '0000-00-00 00:00:00');
+(1, 'otakcoding', 'admin', '202cb962ac59075b964b07152d234b70', 'admin di aplikasi pendataan warga', 'Admin', 'Puruh Cahu', 'Murung', 'Murung Raya', 'Kalimantan Tengah', 'Indonesia', '001', '002', '2017-10-19 06:31:17', '2017-10-19 06:31:17'),
+(11, 'Kepala Desa', 'Admin', 'e3afed0047b08059d0fada10f400c1e5', '', 'Admin', 'Puruk Cahu', 'Murung', 'Murung Raya', 'Kalimantan Tengah', 'Indonesia', '-', '-', '2019-06-16 14:48:53', '2017-12-15 04:30:43'),
+(13, 'Kasi Pemerintahan', 'kasi_pemerintahan', '17131d43d1c41721e4daf4a9a6c85cda', 'Kasi Pemerintahan', 'Kasi_Pemerintahan', 'Puruk Cahu', 'Murung', 'Murung Raya', 'Kalimantan Tengah', 'Indonesia', '', '', '2018-01-02 07:57:52', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -257,26 +257,26 @@ CREATE TABLE `warga` (
 --
 
 INSERT INTO `warga` (`id_warga`, `nik_warga`, `nama_warga`, `tempat_lahir_warga`, `tanggal_lahir_warga`, `jenis_kelamin_warga`, `alamat_ktp_warga`, `alamat_warga`, `desa_kelurahan_warga`, `kecamatan_warga`, `kabupaten_kota_warga`, `provinsi_warga`, `negara_warga`, `dusun_warga`, `rt_warga`, `rw_warga`, `agama_warga`, `pendidikan_terakhir_warga`, `pekerjaan_warga`, `status_warga`, `id_user`, `created_at`, `updated_at`) VALUES
-(1, '3208090101960089', 'sulaiman', 'Dukuhdalem', '1985-02-26', 'L', 'Dukuhdalem', 'Dukuhdalem', 'Dukuh', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', 'Dukuh', '001', '002', 'Islam', 'SD', 'Petani', 'Tinggal Tetap', 1, '2018-01-17 15:51:54', '2018-01-17 15:51:54'),
-(2, '3208090511780005', 'Anang', 'Kuningan', '1978-11-05', 'L', 'Dukuhdalem', 'Dukuhdalem', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', 'Tarikolot', '02', '01', 'Islam', 'SMP', 'pedagang', 'Tinggal Tetap', 11, '2018-01-17 15:53:24', '2018-01-17 15:53:24'),
-(3, '35', 'AB', 'Kuningan', '2017-12-19', 'L', 'kng', 'kng', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', 'Tarikolot', '01', '01', 'Islam', 'SD', 'Mahasiswa', 'Tinggal Tetap', 11, '2017-12-27 14:44:31', '2017-12-27 14:44:31'),
-(4, '34', 'AA', 'Kuningan', '2006-12-05', 'P', 'kuningan', 'kuningan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', '', '-', '-', 'Islam', 'SMA', 'pedagang', '', 11, '2017-12-15 14:42:26', '2017-12-15 14:42:26'),
-(5, '33', 'CC', 'Kuningan', '2001-04-04', 'L', 'Kuningan', 'Kuningan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', '', '05', '01', 'Islam', 'SMA', 'Mahasiswa', '', 11, '2017-12-15 15:12:52', '2017-12-15 15:12:52'),
-(7, '12', 'Malik', '-', '2017-12-17', 'L', '-', '-', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', 'Tarikolot', '01', '01', 'Islam', 'SMA', 'Mahasiswa', '', 11, '2017-12-17 07:22:08', '2017-12-17 07:22:08'),
-(9, '124', 'DD', 'Kuningan', '2017-12-17', 'L', 'kng', 'kng', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', 'Dukuh', '01', '01', 'Islam', 'SMP', 'pedagang', 'Pindah Datang', 11, '2017-12-26 14:38:42', '2017-12-26 14:38:42'),
-(10, '13', 'AC', 'Bandung', '1996-01-01', 'L', 'Windusengkahan', 'Windusengkahan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', 'Dukuh', '06', '01', 'Islam', 'SMA', 'Mahasiswa', '', 11, '2017-12-17 17:42:00', '0000-00-00 00:00:00'),
-(11, '677', 'Baim', 'kuningan', '2017-12-29', 'L', 'Ciawi', 'Ciawi', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'INDONESIA', 'Dukuh', '01', '01', 'Islam', 'Tidak Sekolah', '-', 'Meninggal', 0, '2018-01-02 13:32:53', '2018-01-02 12:42:31'),
-(12, '201111', 'Yoshino', 'kuningan', '2018-01-02', 'L', 'Kuningan', 'Kuningan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'INDONESIA', 'Dukuh', '01', '05', 'Islam', 'Tidak Sekolah', '-', 'Meninggal', 0, '2018-01-02 08:08:59', '2018-01-02 08:08:59'),
-(13, '5a4b0bc3c0e9b', 'Yoshino', 'kuningan', '2018-01-02', 'L', 'Kuningan', 'Kuningan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'INDONESIA', 'Tarikolot', '01', '01', 'Islam', '-', '-', 'Tinggal Tetap', 0, '2018-01-02 15:35:23', '2018-01-02 15:35:23'),
-(14, '5a4b2d7bca703', 'Yoshino yosuke', 'kuningan', '2018-01-02', 'L', 'Kuningan', 'Kuningan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'INDONESIA', 'Dukuh', '01', '05', 'Islam', '-', '-', 'Tinggal Tetap', 0, '2018-01-02 12:15:40', '2018-01-02 12:15:40'),
-(15, '2311', 'Yoshino yosuke 2', 'kuningan', '2018-01-02', 'L', 'Kuningan', 'Kuningan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'INDONESIA', 'Dukuh', '01', '02', 'Islam', '-', '-', 'Pindah Keluar', 0, '2018-01-17 17:16:55', '2018-01-02 12:42:45'),
-(16, '5a4c748795baa', 'suryani', 'kuningan', '2018-01-03', 'L', 'Kuningan', 'Kuningan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'INDONESIA', '', '01', '05', 'Islam', '-', '-', 'Pindah Keluar', 0, '2018-01-03 14:08:57', '0000-00-00 00:00:00'),
-(17, '9988', 'Asu', 'Kuningan', '2018-01-03', 'L', '', '', 'Dukuhdalem', 'Ciawi Gebang', 'Kuningan', 'Jawa Barat', 'Indonesia', 'Tarikolot', '01', '01', 'Islam', 'Tidak Sekolah', 'pedagang', 'Pindah Datang', 13, '2018-01-03 18:31:36', '2018-01-03 18:31:36'),
-(28, '5a4d2b4cdb7c5', 'aaaaa', 'Kuningan', '2018-01-04', 'L', '', '', '-', '-', '-', '-', '-', '', '-', '-', '', '-', '-', 'Pindah Datang', 13, '2018-01-03 19:13:16', '0000-00-00 00:00:00'),
-(29, '5a4d2b964b148', 'aaaaa', 'Kuningan', '2018-01-04', 'L', '', '', '-', '-', '-', '-', '-', '', '-', '-', '', '-', '-', 'Pindah Datang', 13, '2018-01-03 19:14:30', '0000-00-00 00:00:00'),
-(30, '88777', 'bbb', 'Kuningan', '2018-01-04', 'L', '', '', '-', '-', '-', '-', '-', 'Tarikolot', '-', '-', 'Islam', '-', '-', 'Pindah Datang', 13, '2018-01-03 19:17:24', '2018-01-03 19:17:24'),
-(31, '5a4db39e707b3', 'Yani Suryani', 'Kuningan', '2018-01-04', 'L', 'Kuningan', 'Kuningan', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'INDONESIA', 'Dukuh', '01', '02', 'Islam', '-', '-', 'Tinggal Tetap', 0, '2018-01-04 04:54:54', '0000-00-00 00:00:00'),
-(34, '3208090511780005', 'Darmawan', 'Kuningan', '1970-01-13', 'L', 'Windujanten', 'Windujanten', 'Dukuhdalem', 'Ciawigebang', 'Kuningan', 'Jawa Barat', 'Indonesia', 'Tarikolot', '02', '01', 'Islam', 'SMP', 'Wiraswasta', 'Pindah Datang', 13, '2018-01-17 17:55:18', '2018-01-17 17:55:18'),
+(1, '3208090101960089', 'sulaiman', 'Puruk Cahu', '1985-02-26', 'L', 'Puruk Cahu', 'Puruk Cahu', 'Dukuh', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', 'Dukuh', '001', '002', 'Islam', 'SD', 'Petani', 'Tinggal Tetap', 1, '2018-01-17 15:51:54', '2018-01-17 15:51:54'),
+(2, '3208090511780005', 'Anang', 'Seberang', '1978-11-05', 'L', 'Puruk Cahu', 'Puruk Cahu', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', 'Tarikolot', '02', '01', 'Islam', 'SMP', 'pedagang', 'Tinggal Tetap', 11, '2018-01-17 15:53:24', '2018-01-17 15:53:24'),
+(3, '35', 'AB', 'Seberang', '2017-12-19', 'L', 'kng', 'kng', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', 'Tarikolot', '01', '01', 'Islam', 'SD', 'Mahasiswa', 'Tinggal Tetap', 11, '2017-12-27 14:44:31', '2017-12-27 14:44:31'),
+(4, '34', 'AA', 'Seberang', '2006-12-05', 'P', 'kuningan', 'kuningan', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', '', '-', '-', 'Islam', 'SMA', 'pedagang', '', 11, '2017-12-15 14:42:26', '2017-12-15 14:42:26'),
+(5, '33', 'CC', 'Seberang', '2001-04-04', 'L', 'Seberang', 'Seberang', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', '', '05', '01', 'Islam', 'SMA', 'Mahasiswa', '', 11, '2017-12-15 15:12:52', '2017-12-15 15:12:52'),
+(7, '12', 'Malik', '-', '2017-12-17', 'L', '-', '-', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', 'Tarikolot', '01', '01', 'Islam', 'SMA', 'Mahasiswa', '', 11, '2017-12-17 07:22:08', '2017-12-17 07:22:08'),
+(9, '124', 'DD', 'Seberang', '2017-12-17', 'L', 'kng', 'kng', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', 'Dukuh', '01', '01', 'Islam', 'SMP', 'pedagang', 'Pindah Datang', 11, '2017-12-26 14:38:42', '2017-12-26 14:38:42'),
+(10, '13', 'AC', 'Bandung', '1996-01-01', 'L', 'Windusengkahan', 'Windusengkahan', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', 'Dukuh', '06', '01', 'Islam', 'SMA', 'Mahasiswa', '', 11, '2017-12-17 17:42:00', '0000-00-00 00:00:00'),
+(11, '677', 'Baim', 'kuningan', '2017-12-29', 'L', 'Ciawi', 'Ciawi', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'INDONESIA', 'Dukuh', '01', '01', 'Islam', 'Tidak Sekolah', '-', 'Meninggal', 0, '2018-01-02 13:32:53', '2018-01-02 12:42:31'),
+(12, '201111', 'Yoshino', 'kuningan', '2018-01-02', 'L', 'Seberang', 'Seberang', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'INDONESIA', 'Dukuh', '01', '05', 'Islam', 'Tidak Sekolah', '-', 'Meninggal', 0, '2018-01-02 08:08:59', '2018-01-02 08:08:59'),
+(13, '5a4b0bc3c0e9b', 'Yoshino', 'kuningan', '2018-01-02', 'L', 'Seberang', 'Seberang', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'INDONESIA', 'Tarikolot', '01', '01', 'Islam', '-', '-', 'Tinggal Tetap', 0, '2018-01-02 15:35:23', '2018-01-02 15:35:23'),
+(14, '5a4b2d7bca703', 'Yoshino yosuke', 'kuningan', '2018-01-02', 'L', 'Seberang', 'Seberang', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'INDONESIA', 'Dukuh', '01', '05', 'Islam', '-', '-', 'Tinggal Tetap', 0, '2018-01-02 12:15:40', '2018-01-02 12:15:40'),
+(15, '2311', 'Yoshino yosuke 2', 'kuningan', '2018-01-02', 'L', 'Seberang', 'Seberang', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'INDONESIA', 'Dukuh', '01', '02', 'Islam', '-', '-', 'Pindah Keluar', 0, '2018-01-17 17:16:55', '2018-01-02 12:42:45'),
+(16, '5a4c748795baa', 'suryani', 'kuningan', '2018-01-03', 'L', 'Seberang', 'Seberang', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'INDONESIA', '', '01', '05', 'Islam', '-', '-', 'Pindah Keluar', 0, '2018-01-03 14:08:57', '0000-00-00 00:00:00'),
+(17, '9988', 'Asu', 'Seberang', '2018-01-03', 'L', '', '', 'Puruk Cahu', 'Ciawi Gebang', 'Seberang', 'Kalimantan Tengah', 'Indonesia', 'Tarikolot', '01', '01', 'Islam', 'Tidak Sekolah', 'pedagang', 'Pindah Datang', 13, '2018-01-03 18:31:36', '2018-01-03 18:31:36'),
+(28, '5a4d2b4cdb7c5', 'aaaaa', 'Seberang', '2018-01-04', 'L', '', '', '-', '-', '-', '-', '-', '', '-', '-', '', '-', '-', 'Pindah Datang', 13, '2018-01-03 19:13:16', '0000-00-00 00:00:00'),
+(29, '5a4d2b964b148', 'aaaaa', 'Seberang', '2018-01-04', 'L', '', '', '-', '-', '-', '-', '-', '', '-', '-', '', '-', '-', 'Pindah Datang', 13, '2018-01-03 19:14:30', '0000-00-00 00:00:00'),
+(30, '88777', 'bbb', 'Seberang', '2018-01-04', 'L', '', '', '-', '-', '-', '-', '-', 'Tarikolot', '-', '-', 'Islam', '-', '-', 'Pindah Datang', 13, '2018-01-03 19:17:24', '2018-01-03 19:17:24'),
+(31, '5a4db39e707b3', 'Yani Suryani', 'Seberang', '2018-01-04', 'L', 'Seberang', 'Seberang', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'INDONESIA', 'Dukuh', '01', '02', 'Islam', '-', '-', 'Tinggal Tetap', 0, '2018-01-04 04:54:54', '0000-00-00 00:00:00'),
+(34, '3208090511780005', 'Darmawan', 'Seberang', '1970-01-13', 'L', 'Windujanten', 'Windujanten', 'Puruk Cahu', 'Murung', 'Seberang', 'Kalimantan Tengah', 'Indonesia', 'Tarikolot', '02', '01', 'Islam', 'SMP', 'Wiraswasta', 'Pindah Datang', 13, '2018-01-17 17:55:18', '2018-01-17 17:55:18'),
 (35, '5a5f8d8243407', 'Dasuki', 'Cijoho', '1968-03-05', 'L', 'Cijoho', 'Cijoho', '-', '-', '-', '-', '-', 'Dukuh', '06', '01', '', '-', '-', 'Pindah Datang', 13, '2018-01-17 17:53:06', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
